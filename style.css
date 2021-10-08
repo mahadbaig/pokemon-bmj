@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu' , sans-serif;
+}
+body{
+    background-image: url(images/promo-bg.png);
+}
+.header{
+    background-color: #F5F5F5;
+    box-shadow: 0.2px 1px grey;
+}
+.nav{
+    margin-left: 250px;
+}
+.links{
+    display:inline-block;
+    margin-right: 6px;
+}
+.nav1{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0.6px 3px 15px #B6B6B6;
+    
+}
+.nav3{
+    margin-top: 6px;
+}
+.nav2{
+    border-right: 3px solid grey;
+    border-right: 1px solid grey;
+    padding: 10px;
+}
+
+
+/* CARDSSS */
+.header2{
+    display: flex;
+    justify-content: center;
+}
+.imj{
+    width: 125px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 0 auto;
+    background-color: white;
+   
+    
+}
+.red:hover{
+    background-color: #E3350D;
+    
+}
+.orange:hover{background-color: #EE6B2F;
+
+}
+.yellow:hover{
+    background-color: #E6BC2F;
+
+}
+.green:hover{
+    background-color: #4DAD5B;
+
+}
+.blue:hover{
+    background-color: #30A7D7;
+
+}
+.dblue:hover{
+    background-color: #1B53BA;
+
+}
+
+
+/* CARD */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.cardmain{
+    width: 575;
+    height: 485;
+    border: black solid 1px;
+    background-color: #313131;
+    color: white;
+    border-radius: 5px;
+}
+
+.cardmain h2 , p{
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.cardsideone h2{
+    display: inline-block;
+    float: right;      
+}
+
+.cardsideone{
+    height:150px ;
+    width: 280px;
+    border: 1px solid black;
+    background-color:#855AC9 ;
+    color: white;
+    margin: 0 15px;
+    border-radius: 5px;
+    
+}
+
+.cardsidetwo{
+    width: 280px;
+    height: 280px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:#8B8B8B;
+    font-weight: lighter;
+    position: relative;
+    margin-left: 823px;
+    margin-top: -350px;
+}
+
+.cardsidethree{
+    width: 280px;
+    height: 280px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 823px;
+    margin-top: 10px;
+    background-color: #FF1F1C;
+    color: white;
+}
+
+.cardsidefour{
+    width: 280px;
+    height: 260px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    margin-top: -230px;
+    margin-left: 530px;
+    background-color: #DA471B;
+    color: white
+}
+
+.cardsidefive{
+    width: 280px;
+    height: 260px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    margin-top: -257px;
+    margin-left: 230px;
+    background-color: #483F31;
+    color: white
+}
+
+
+/* ///////////////slideshow///////////////// */
+
+
+.pokemons{
+    margin-top: 30px;
+    display: inline-block;
+    
+}
+
+
+.pokemon{
+    display: inline-block;
+    background-color: #232323;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    width: 300px;
+}
+.pokemon h2{
+    padding-left: 10px;
+}
+.pokemon p{
+    font-weight: bold;
+    margin-top: 8px;
+}
+.pokemage{
+    background-color: #525252;
+}
+
+.water{
+    font-weight: lighter;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 2px;
+    margin-left: 50px;
+
+}
+
+.ice{
+    font-weight: lighter;
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 2px;
+    color: black;
+
+}
+
+#abilities{
+    font-weight: lighter;
+    margin-left: 25px;
+}
+
+.firsttwo{
+    position: relative;
+    
+}
+
+/* Ending Cards  */
+
+.boxes{
+    margin-top: 190px;
+    text-align: center;
+    margin-left: 250px;
+    
+}
+.box{
+    text-align: left;
+    margin-right: 9px;
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    width: 300px;
+}
+
+.box h2{
+    padding-left: 15px;
+    padding-top: 6px;
+}
+.box p{
+    padding-left: 15px;
+}
+.one{
+    background-color:rgb(81, 199, 81);
+    border: 1px solid lightgreen;
+    border-radius: 9px;
+    color: white;
+}
+.two{
+    background-color:#E3350D;
+    border: 1px solid #E3350D;
+    border-radius: 9px;
+    color: white;
+    position: relative;
+    bottom: 90px;
+}
+.three{
+    background-color:#675945;
+    border: 1px solid #675945;
+    border-radius: 9px;
+    color: white;
+    position: relative;
+    bottom: 50px;
+}
+.boxes1{
+    position: relative;
+    bottom: 170px;
+    margin-top: 190px;
+    text-align: center;
+    margin-left: 250px;
+    
+}
+.box1{
+    text-align: left;
+    margin-right: 9px;
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    width: 300px;
+    m
+    
+}
+
+.box1 h2{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.box1 p{
+    padding-left: 15px;
+}
+.one1{
+    background-color:#DA471B;
+    border: 1px solid #DA471B;
+    border-radius: 9px;
+    color: white;
+    position: relative;
+    bottom: 40px;
+}
+.two1{
+    background-color:lightseagreen;
+    border: 1px solid lightseagreen;
+    border-radius: 9px;
+    color: white;
+    position: relative;
+    top: 40px;
+}
+.three1{
+    background-color:#313131;
+    border: 1px solid #313131;
+    border-radius: 9px;
+    color: white;
+}
+.para{
+    color: grey;
+    position: relative;
+    bottom: 600px;
+    left: 600px;
+    font-size: 19px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* footer */
+
+
+.footer{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color:#1F1F1F ;
+    color: white;
+    
+}
+.footer ul{
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 60px;
+}
+
+.fut1,.fut2,.fut3{
+    display: inline-block;
+
+
+}
+
+
+.fut3{
+    margin-left: 50px;
+}
